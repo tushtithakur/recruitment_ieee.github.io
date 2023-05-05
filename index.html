@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+ <body>
+<head>
+	<title>IEEE JUSB Recruitment Drive</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#events">Events</a></li>
+				<li><a href="#teams">Teams</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+    
+    <script src="script.js"></script>
+	<script src="http://api.login2explore.com:5577/user/dashboard.html"></script>
+
+    
+
+	<main>
+		<section id="about">
+            <img src="aboutn.png" alt="IEEE JUSB Logo">
+			<h1>About IEEE JUSB</h1>
+			<p>IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity. Our IEEE JU Student Branch gives students a community of peers, and a connection to faculty and industry professionals who drive innovation in countless technical fields.</p>
+			
+		</section>
+		
+		<section id="events">
+			<h1>Upcoming Events</h1>
+			<p>Stay tuned for our upcoming events!</p>
+            <img src="images\staytuned.webp" alt="Staytuned">
+		</section>
+		
+		<section id="teams">
+			<h1>Our Teams</h1>
+			<p>We have several teams that you can join to develop your technical and leadership skills:</p>
+			<ul>
+				<li><b>Tech Team<b></li>
+                <img src="images\giphy.gif" alt="tech">
+				<li><b>PR Team</b></li>
+                <img src="images\pr.gif" alt="pr">
+				<li><b>Design Team</b></li>
+                <img src="images\design.gif" alt="design">
+				<li><b>Content Creator Team</b></li>
+                <img src="images\cc.gif" alt="contentcreator">
+                <li><b>Logistics Team</b></li>
+                <img src="images\logistics.gif" alt="logistics">
+			</ul>
+		</section>
+	</main>
+	
+	<footer>
+		<section id="contact">
+			<h1>Contact Us</h1>
+			<form method="POST" action="/submit">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				
+				<label for="college">College:</label>
+				<input type="text" id="college" name="college" required>
+				
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				
+				<label for="team">Team:</label>
+				<select id="team" name="team" required>
+					<option value="" disabled selected>Select your team</option>
+					<option value="Tech Team">Tech Team</option>
+					<option value="PR Team">PR Team</option>
+					<option value="Design Team">Design Team</option>
+					<option value="Content Creator Team">Content Creator Team</option>
+                    <option value="Logistics Team">Logistics Team</option>
+				</select>
+				
+				<label for="skills">Skills:</label>
+				<textarea id="skills" name="
+			skills" required></textarea>
+			
+			<label for="year">Year:</label>
+			<input type="number" id="year" name="year" min="1" max="4" required>
+			
+			<button type="submit" form="studentForm">Save</button>
+
+		</form>
+	</section>
+	
+	<section id="social">
+		<h1>Follow Us</h1>
+		<a href="https://www.facebook.com/ieeejusb/"><img src="facebook.png" alt="Facebook"></a>
+        <a href="https://twitter.com/ieeejadavpur?lang=en"><img src="twitter.png" alt="Twitter"></a>
+        <a href="https://www.instagram.com/_ieeeju/?hl=en"><img src="instagram.png" alt="Instagram"></a>
+
+	</section>
+	
+	<section id="address">
+		<h1>Address</h1>
+		<p>IEEE JUSB Student Branch<br>
+		Jadavpur University<br>
+		Kolkata, 700032</p>
+	</section>
+</footer>
+
+
+
+
+</body>
+</html>
